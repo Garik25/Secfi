@@ -169,13 +169,21 @@ header .header .header_right .small {
 main {
   font-family: "Roboto-Regular";
 }
+main .main .all_main {
+  padding: 38px;
+}
+main .main .all_main .meesing_logo {
+  display: flex;
+  flex-direction: row-reverse;
+}
 main .main .all_main span {
+  width: 140px;
+  height: 25px;
   color: rgba(86, 91, 95, 0.473);
   font-weight: 400;
   font-size: 10px;
 }
 main .main .all_main .main_border {
-  position: relative;
   width: 467px;
   height: 132px;
   color: #FFFFFF;
@@ -184,7 +192,6 @@ main .main .all_main .main_border {
   margin: 80px auto;
 }
 main .main .all_main .main_border p {
-  position: absolute;
   color: #004250;
   font-weight: 400;
   font-size: 13px;
@@ -192,25 +199,26 @@ main .main .all_main .main_border p {
   margin: 0;
   line-height: 19px;
 }
-main .main .all_main .main_border .mein_span {
-  width: 467px;
-  position: absolute;
+main .main .all_main .main_border div {
   display: flex;
   justify-content: space-between;
 }
-main .main .all_main .main_border .mein_span span {
+main .main .all_main .main_border div span {
+  padding: 10px;
   letter-spacing: 1px;
   flex-wrap: nowrap;
   font-weight: 400;
   font-size: 12px;
   color: #004250;
-  margin-top: 100px;
+  margin-top: 20px;
 }
-main .main .all_main .main_border .mein_span button {
-  padding: 14px;
-  width: 100px;
+main .main .all_main .main_border div a {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 10px;
+  width: 84px;
   font-size: 12px;
-  margin-top: 80px;
+  margin-top: 20px;
   color: #FFFFFF;
   border: #004250;
   padding: 12px 12px;
@@ -233,13 +241,14 @@ main .main .meesing_logo .meesing_logo_frist .meesing_logo_two {
   bottom: 3px;
   left: 1px;
 }
-main .main .text_two_p h3 {
+main .main .main_text_tree h3 {
   text-align: center;
   font-weight: 400;
   font-size: 26px;
   color: #292A2D;
 }
-main .main .text_two_p p {
+main .main .main_text_tree p {
+  padding: 15px 0 65px 0;
   text-align: center;
   font-weight: 400;
   font-size: 15px;
@@ -247,6 +256,9 @@ main .main .text_two_p p {
 }
 
 @media screen and (max-width: 1105px) {
+  .main .all_mainspan {
+    display: none;
+  }
   .main img {
     width: 100%;
   }

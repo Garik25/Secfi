@@ -264,14 +264,19 @@ main {
 
   .main {
     .all_main {
+      .meesing_logo {
+        display: flex;
+        flex-direction: row-reverse;
+      }
 
-
+      padding: 38px;
 
       span {
 
+        width: 140px;
+        height: 25px;
 
 
-        // padding: 45px;
         color: rgba(86, 91, 95, 0.473);
 
         font-weight: 400;
@@ -280,8 +285,11 @@ main {
 
 
       .main_border {
-       position: relative;
-        
+        //  position: relative;
+
+
+
+
         width: 467px;
         height: 132px;
         color: $a;
@@ -289,54 +297,65 @@ main {
         border-radius: 29.1667px;
         margin: 80px auto;
 
-        p {position: absolute;
+        p {
+          // position: absolute;
           //  text-align:center;
           color: $seventh;
           font-weight: 400;
           font-size: 13px;
-         padding: 13px  53px 0 26px ;
-         margin: 0;
-         line-height: 19px;
+          padding: 13px 53px 0 26px;
+          margin: 0;
+          line-height: 19px;
         }
 
-       
-      
-         .mein_span{
-          width: 467px;
-          position: absolute;
-          display: flex;
-          justify-content: space-between;
-          
 
-         
+
+
+        // width: 100%;
+        // // position: absolute;
+        // display: flex;
+        // justify-content: space-between;
+        //  gap: 100px;
+        //  padding: 8px;
+
+        div {
+          display: flex;
+
+          justify-content: space-between;
+
+          // align-items: center;
+
           span {
             // padding: 10px 0 12px 0;
-            
-            letter-spacing:1px;
-           flex-wrap: nowrap;
+            padding: 10px;
+            letter-spacing: 1px;
+            flex-wrap: nowrap;
             font-weight: 400;
             font-size: 12px;
             color: $seventh;
             // word-spacing:17px;
 
-            margin-top: 100px;
+            margin-top: 20px;
+
           }
 
 
-             
-          button {
-            
-              padding: 14px;
-              width: 100px;
-              font-size: 12px;
-              // margin-left:200px; 
-              margin-top: 80px;
-              color: $a;
-              border: #004250;
-              padding: 12px 12px;
-              border-radius: 20.8333px;
-              background: $seventh;
-            // text-decoration: none;
+
+          a {
+            text-decoration: none;
+            text-align: center;
+            padding: 10px 10px;
+            width: 84px;
+
+            font-size: 12px;
+
+            margin-top: 20px;
+            color: $a;
+            border: #004250;
+            padding: 12px 12px;
+            border-radius: 20.8333px;
+            background: $seventh;
+
 
 
 
@@ -344,8 +363,8 @@ main {
 
           }
         }
-        
-        
+
+
 
       }
     }
@@ -371,31 +390,47 @@ main {
         }
       }
     }
-  .text_two_p{
 
-    h3{
-      text-align: center;
-      font-weight: 400;
-      font-size: 26px;
-      color: $first;
+    .main_text_tree {
+
+      h3 {
+
+        text-align: center;
+        font-weight: 400;
+        font-size: 26px;
+        color: $first;
+      }
+
+      p {
+        padding: 15px 0 65px 0;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        color: $first;
+      }
     }
-    p{
-      text-align: center;
-      font-weight: 400;
-      font-size: 15px;
-      color: $first;
-    }
-  }
   }
 }
 
-@media screen  and (max-width:1105px){
-   .main{
-    img{
+@media screen and (max-width:1105px) {
+
+  .main {
+    
+     .all_main{
+      &span {
+        display: none;
+
+      }
+      .main_border{
+        
+      }
+
+     }
+    img {
       width: 100%;
     }
-   }
-  
+  }
+
 }
 
 
