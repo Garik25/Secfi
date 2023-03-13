@@ -20,7 +20,14 @@ $menutext: 13px;
 
 oboto-Medium body {
   font-family: "Roboto-Regular";
+
 }
+
+// body {
+//   h2 {
+//     text-align: center;
+//   }
+// }
 
 .container {
   max-width: 1200px;
@@ -274,7 +281,7 @@ main {
       span {
 
         width: 140px;
-        height: 25px;
+
 
 
         color: rgba(86, 91, 95, 0.473);
@@ -310,49 +317,50 @@ main {
 
 
 
-
-        // width: 100%;
-        // // position: absolute;
-        // display: flex;
-        // justify-content: space-between;
-        //  gap: 100px;
-        //  padding: 8px;
-
-        div {
+        .span_a {
+           
           display: flex;
-
           justify-content: space-between;
+          align-items: center;
+          margin-top: 20px;
+          padding: 5px;
 
-          // align-items: center;
+          div {
+            display: flex;
+            //  gap: 30px;
 
-          span {
-            // padding: 10px 0 12px 0;
-            padding: 10px;
-            letter-spacing: 1px;
-            flex-wrap: nowrap;
-            font-weight: 400;
-            font-size: 12px;
-            color: $seventh;
-            // word-spacing:17px;
 
-            margin-top: 20px;
+            align-items: center;
+
+            span {
+              display: block;
+              // padding: 10px 0 12px 0;
+              padding: 2px;
+              letter-spacing: 1px;
+              flex-wrap: nowrap;
+              font-weight: 400;
+              font-size: 12px;
+              color: $seventh;
+
+
+            }
+
+
 
           }
-
-
 
           a {
             text-decoration: none;
             text-align: center;
             padding: 10px 10px;
             width: 84px;
-
+            bottom: 80px;
             font-size: 12px;
-
-            margin-top: 20px;
+            box-sizing: border-box;
+            display: block;
             color: $a;
             border: #004250;
-            padding: 12px 12px;
+
             border-radius: 20.8333px;
             background: $seventh;
 
@@ -415,23 +423,35 @@ main {
 @media screen and (max-width:1105px) {
 
   .main {
-    
-     .all_main{
+
+    .all_main {
       &span {
         display: none;
 
       }
-      .main_border{
-        
-      }
 
-     }
+      .main_border {}
+
+    }
+
     img {
       width: 100%;
     }
   }
 
 }
+
+// @media screen and(max-width:$mobilaL) {
+//   .all_main{
+
+//     .main_border{
+//       display: block;
+//       width: 250px;
+//     }
+
+//   }
+
+// }
 
 
 
