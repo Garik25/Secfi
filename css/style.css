@@ -170,7 +170,7 @@ main {
   font-family: "Roboto-Regular";
 }
 main .main .all_main {
-  padding: 38px;
+  padding: 15px;
 }
 main .main .all_main .meesing_logo {
   display: flex;
@@ -232,6 +232,20 @@ main .main .all_main .main_border .span_a a {
   border-radius: 20.8333px;
   background: #004250;
 }
+@media screen and (max-width: 556px) {
+  main .main .all_main {
+    width: 100%;
+  }
+  main .main .all_main .main_border {
+    width: 100%;
+    border: none;
+    border-radius: none;
+  }
+  main .main .all_main .main_border .span_a div {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
 main .main .meesing_logo {
   width: 60px;
   height: 60px;
@@ -261,13 +275,275 @@ main .main .main_text_tree p {
   font-size: 15px;
   color: #292A2D;
 }
+main .main_two_top {
+  margin: 80px auto;
+}
+main .main_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FBFBF6;
+  gap: 160px;
+}
+main .main_two .main_two_left {
+  max-width: 400px;
+}
+main .main_two .main_two_left h5 {
+  color: #73726C;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+}
+main .main_two .main_two_left p {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  margin: 33px 0px;
+}
+main .main_two .main_two_left .main-two_link {
+  display: flex;
+  gap: 25px;
+}
+main .main_two .main_two_left .main-two_link a {
+  cursor: grab;
+  text-decoration: none;
+}
+main .main_two .main_two_left .main-two_link a.get_started {
+  width: 117px;
+  height: 39px;
+  padding: 14px 26px;
+  font-size: 12px;
+  background: #292A2D;
+  border-radius: 20.8333px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+main .main_two .main_two_left .main-two_link a.learn_more {
+  padding: 14px 5px;
+  font-size: 12px;
+  color: #292A2D;
+  font-weight: 400;
+}
+@media screen and (max-width: 920px) {
+  main .main_two {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  main .main_two .main_two_left {
+    flex-wrap: wrap;
+  }
+  main .main_two .main_two_left h5 {
+    text-align: center;
+  }
+  main .main_two .main_two_left .main-two_link {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 490px) {
+  main .main_two {
+    gap: 20px;
+  }
+  main .main_two .main_two_right img {
+    width: 100%;
+  }
+}
+main .main_tree {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+main .main_tree .main_three_left {
+  max-width: 400px;
+}
+main .main_tree .main_three_left h5 {
+  color: #73726C;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+}
+main .main_tree .main_three_left p {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  margin: 33px 0px;
+}
+main .main_tree .main_three_left .main-three_link {
+  display: flex;
+  gap: 25px;
+}
+main .main_tree .main_three_left .main-three_link a {
+  cursor: grab;
+  text-decoration: none;
+}
+main .main_tree .main_three_left .main-three_link a.get_started {
+  width: 117px;
+  height: 39px;
+  padding: 14px 26px;
+  font-size: 12px;
+  background: #292A2D;
+  border-radius: 20.8333px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+main .main_tree .main_three_left .main-three_link a.learn_more {
+  padding: 14px 5px;
+  font-size: 12px;
+  color: #292A2D;
+  font-weight: 400;
+}
+@media screen and (max-width: 920px) {
+  main .main_tree {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  main .main_tree .main_three_left {
+    flex-wrap: wrap-reverse;
+  }
+  main .main_tree .main_three_left h5 {
+    text-align: center;
+  }
+  main .main_tree .main_three_left .main-three_link {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 490px) {
+  main .main_tree {
+    gap: 20px;
+  }
+  main .main_tree .main_three_right img {
+    width: 100%;
+  }
+}
 
+.main_four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+.main_four .main_four_right {
+  max-width: 400px;
+}
+.main_four .main_four_right h5 {
+  color: #73726C;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+}
+.main_four .main_four_right p {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  margin: 33px 0px;
+}
+.main_four .main_four_right .main-four_link {
+  display: flex;
+  gap: 25px;
+}
+.main_four .main_four_right .main-four_link a {
+  cursor: grab;
+  text-decoration: none;
+}
+.main_four .main_four_right .main-four_link a.get_started {
+  width: 117px;
+  height: 39px;
+  padding: 14px 26px;
+  font-size: 12px;
+  background: #292A2D;
+  border-radius: 20.8333px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.main_four .main_four_right .main-four_link a.learn_more {
+  padding: 14px 5px;
+  font-size: 12px;
+  color: #292A2D;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 920px) {
+  .main_four {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_four .main_four_left {
+    flex-wrap: wrap;
+  }
+  .main_four .main_four_left h5 {
+    text-align: center;
+  }
+  .main_four .main_four_left .main-four_link {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 490px) {
+  .main_four {
+    gap: 20px;
+  }
+  .main_four .main_four_left img {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1105px) {
   .main .all_mainspan {
     display: none;
   }
   .main img {
     width: 100%;
+  }
+}
+.main_five {
+  display: flex;
+  justify-content: space-between;
+  gap: 215px;
+}
+.main_five .main_five_left {
+  max-width: 300px;
+}
+.main_five .main_five_left h5 {
+  color: #73726C;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}
+.main_five .main_five_left h2 {
+  color: #292A2D;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 44px;
+}
+.main_five .main_give_rigth {
+  width: 400px;
+}
+.main_five .main_give_rigth .item_five h3 {
+  color: #292A2D;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+.main_five .main_give_rigth .item_five p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #292A2D;
+}
+
+@media screen and (max-width: 700px) {
+  .main_five {
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
   }
 }
 * {
