@@ -449,11 +449,12 @@ main {
 
 
   .main_two_top {
-    margin: 80px auto;
+    text-align: center;
 
     h3 {}
 
     svg {}
+
   }
 
   .main_two {
@@ -688,6 +689,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #FBFBF6;
 
   padding-top: 100px;
 
@@ -817,6 +819,8 @@ main {
 .main_five{
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+  padding: 100px;
   gap: 215px;
   .main_five_left{
     max-width: 300px;
@@ -862,17 +866,156 @@ main {
 }
   
 @media screen and (max-width:700px) {
+  
   .main_five{
-    padding-top: 20px;
+     padding-top: 20px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    gap: 30px;
+    gap: 0px;
   
   }
   
 }
+@media screen and (max-width:792px) {
+  
+  .main_five{
+     
+    gap: 20px;
+  
+  }
+  
+}
+.mian_span {
+  display: flex;
+ gap: 500px;
+  align-items: center;
+
+  p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color:$first;
+  }
+}
+@media screen and (max-width:700px) {
+  .mian_span {
+    justify-content: center;
+
+    flex-wrap: wrap;
+    
+  }
+
+}
+@media screen and (max-width:$mobila) {
+  .mian_span {
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    
+    
+  }
+
+}
+
+
+
+
+
+
+
+
+  .end_main_frist{
+    background: #73726C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 592px;
+    
+    margin-top: 20px;
+
+    .end_main_frist_left{
+      img{
+
+      }
+    }
+
+    .end_main_frist_right{
+      
+
+      h4{ 
+        color: $a;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+       
+     
+
+      }
+        
+      h3{
+        color: $a;
+        font-weight: 400;
+        font-size: 106px;
+        line-height: 117px; 
+        margin: 0;
+        padding-top: 60px;
+
+        
+
+      }
+      p{
+        color: $a;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        padding-top: 40px;
+        margin: 0;
+      }
+
+      .list{
+        .list_all{
+
+        }
+
+        .half_list{
+
+          .half{
+
+          }
+        }
+      }
+    }
+
+  }
+  @media screen and (max-width:700px){
+    .end_main_frist{
+      height: 1000px;
+      justify-content: center;
+      
+      flex-wrap: wrap;
+  
+    }
+
+  }
+  @media screen and (max-width:$mobilaM){
+    .end_main_frist{
+      gap: 0px;
+      .end_main_frist_left{
+        img{
+          width: 100%;
+        }
+      }
+
+
+
+    }
+
+  }
 
 
 
