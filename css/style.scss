@@ -23,11 +23,7 @@ oboto-Medium body {
 
 }
 
-// body {
-//   h2 {
-//     text-align: center;
-//   }
-// }
+
 
 .container {
   max-width: 1200px;
@@ -42,7 +38,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // padding: 20px;
+  
 
 
 
@@ -193,7 +189,7 @@ header {
     }
 
     .header_right {
-      // width: 650px;
+   
       display: flex;
       position: relative;
 
@@ -292,8 +288,7 @@ main {
 
 
       .main_border {
-        //  position: relative;
-
+       
 
 
 
@@ -305,8 +300,7 @@ main {
         margin: 80px auto;
 
         p {
-          // position: absolute;
-          //  text-align:center;
+    
           color: $seventh;
           font-weight: 400;
           font-size: 13px;
@@ -327,7 +321,7 @@ main {
 
           div {
             display: flex;
-            //  gap: 30px;
+          
 
 
             align-items: center;
@@ -503,7 +497,7 @@ main {
             color: $a;
             font-weight: 400;
 
-            // text-align: center;
+   
 
 
 
@@ -610,8 +604,7 @@ main {
             color: $a;
             font-weight: 400;
 
-            // text-align: center;
-
+       
 
 
           }

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <style>.nav_items,.nav_items .nav_menu,nav .nav{display:-webkit-box;display:-ms-flexbox}.container,.line{max-width:1200px;padding:0 32px;margin:0 auto}header,main,oboto-Medium body{font-family:Roboto-Regular}button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}@font-face{font-family:Roboto-Regular;src:url(/fonts/Roboto-Regular.ttf)}nav .nav{min-height:80px;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.nav_items{display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:54.2px}.nav_items .nav_menu{display:flex;gap:38px;font-size:16px}.nav_btns .login_logo,.nav_items .brtuch,[hidden],template{display:none}.nav_btns,header .header,header .header .header_right{display:-webkit-box;display:-ms-flexbox}.nav_items li{list-style:none}.nav_items a{text-decoration:none;color:#292a2d}.nav_btns{display:flex;gap:12px}.nav_btns button{cursor:-webkit-grab;cursor:grab}.nav_btns button.login{border:none;width:85px;height:39px;background:0 0}.nav_btns button.get{width:117px;height:39px;background:#292a2d;border-radius:20.8333px;color:#eeece3}header .header{display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:35px;gap:232px}.main_four .main_four_right,header .header .header_left,main .main_tree .main_three_left,main .main_two .main_two_left{max-width:400px}header .header .header_left h1{font-size:33px;color:#292a2d}header .header .header_left p{font-size:13px;color:#292a2d;font-weight:400;margin:33px 0}header .header .header_left .header_left_btn a{font-size:12px;padding:13px 26px;color:#fff;border-radius:20.8333px;background:#292a2d;text-decoration:none}header .header .header_right{display:flex;position:relative}header .header .header_right .big{right:80px}header .header .header_right .small{position:absolute;left:-50px;margin-top:130px}main .main .all_main .main_border .span_a,main .main .all_main .meesing_logo,main .main .meesing_logo,main .main_two{display:-webkit-box;display:-ms-flexbox}.line{height:1px;background:rgba(91,102,111,.25)}@font-face{font-family:Roboto-Bold;src:url(/fonts/Roboto-Regular.ttf)}main{display:block}main .main .all_main{padding:15px}main .main .all_main .meesing_logo{display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}main .main .all_main span{width:140px;color:rgba(86,91,95,.473);font-weight:400;font-size:10px}main .main .all_main .main_border{width:467px;height:132px;color:#fff;border:1px solid rgba(41,42,45,.15);border-radius:29.1667px;margin:80px auto}main .main .all_main .main_border p{color:#004250;font-weight:400;font-size:13px;padding:13px 53px 0 26px;margin:0;line-height:19px}main .main .all_main .main_border .span_a{display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:20px;padding:5px}main .main .all_main .main_border .span_a div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .main .all_main .main_border .span_a div span{display:block;padding:2px;letter-spacing:1px;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-weight:400;font-size:12px;color:#004250}main .main .all_main .main_border .span_a a{text-decoration:none;text-align:center;padding:10px;width:84px;bottom:80px;font-size:12px;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;color:#fff;border:#004250;border-radius:20.8333px;background:#004250}*,legend{-webkit-box-sizing:border-box}@media screen and (max-width:556px){main .main .all_main{width:100%}main .main .all_main .main_border{width:100%;border:none;border-radius:none}main .main .all_main .main_border .span_a div{-ms-flex-wrap:wrap;flex-wrap:wrap;gap:5px}}main .main .meesing_logo{width:60px;height:60px;background:#333;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .main .meesing_logo .meesing_logo_frist{position:relative}main .main .meesing_logo .meesing_logo_frist .meesing_logo_two{position:absolute;bottom:3px;left:1px}main .main .main_text_tree h3{text-align:center;font-weight:400;font-size:26px;color:#292a2d}main .main .main_text_tree p{padding:15px 0 65px;text-align:center;font-weight:400;font-size:15px;color:#292a2d}main .main_two_top{text-align:center}main .main_two{display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:#fbfbf6;gap:160px}.main_four,main .main_tree{display:-webkit-box;display:-ms-flexbox}.main_four .main_four_right h5,main .main_tree .main_three_left h5,main .main_two .main_two_left h5{color:#73726c;font-weight:400;font-size:12px;line-height:25px}.main_four .main_four_right p,main .main_tree .main_three_left p,main .main_two .main_two_left p{font-weight:400;font-size:23px;line-height:28px;margin:33px 0}.main_four .main_four_right .main-four_link,main .main_tree .main_three_left .main-three_link,main .main_two .main_two_left .main-two_link{display:-webkit-box;display:-ms-flexbox;display:flex;gap:25px}.main_four .main_four_right .main-four_link a,main .main_tree .main_three_left .main-three_link a,main .main_two .main_two_left .main-two_link a{cursor:-webkit-grab;cursor:grab;text-decoration:none}.main_four .main_four_right .main-four_link a.get_started,main .main_tree .main_three_left .main-three_link a.get_started,main .main_two .main_two_left .main-two_link a.get_started{width:117px;height:39px;padding:14px 26px;font-size:12px;background:#292a2d;border-radius:20.8333px;color:#fff;font-weight:400}.main_four .main_four_right .main-four_link a.learn_more,main .main_tree .main_three_left .main-three_link a.learn_more,main .main_two .main_two_left .main-two_link a.learn_more{padding:14px 5px;font-size:12px;color:#292a2d;font-weight:400}main .main_tree{display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-top:100px}.main_four{display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:#fbfbf6;padding-top:100px}.main_five,.mian_span{display:-webkit-box;display:-ms-flexbox}@media screen and (max-width:920px){.main_four,main .main_two{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.main_four .main_four_left,main .main_two .main_two_left{-ms-flex-wrap:wrap;flex-wrap:wrap}.main_four .main_four_left h5,main .main_tree .main_three_left h5,main .main_two .main_two_left h5{text-align:center}.main_four .main_four_left .main-four_link,main .main_tree .main_three_left .main-three_link,main .main_two .main_two_left .main-two_link{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .main_tree{-ms-flex-wrap:wrap-reverse;flex-wrap:wrap-reverse;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:40px}main .main_tree .main_three_left{-ms-flex-wrap:wrap-reverse;flex-wrap:wrap-reverse}}.main_five{display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:20px;padding:100px;gap:215px}.main_five .main_five_left{max-width:300px}.main_five .main_five_left h5{color:#73726c;font-weight:400;font-size:10px;line-height:15px}.main_five .main_five_left h2{color:#292a2d;font-weight:400;font-size:37px;line-height:44px}.main_five .main_give_rigth{width:400px}.main_five .main_give_rigth .item_five h3{color:#292a2d;font-weight:400;font-size:20px;line-height:20px}.main_five .main_give_rigth .item_five p{font-weight:400;font-size:13px;line-height:19px;color:#292a2d}@media screen and (max-width:700px){.main_five{padding-top:20px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap;text-align:center;gap:0}}@media screen and (max-width:792px){.main_five{gap:20px}}.mian_span{display:flex;gap:500px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.mian_span p{font-weight:400;font-size:10px;line-height:12px;color:#292a2d}@media screen and (max-width:700px){.mian_span{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}}@media screen and (max-width:802px){.nav_btns .get,.nav_btns .login,.nav_items .nav_menu{display:none}.nav_items .brtuch{display:block}.nav_btns .login_logo{display:block;border:none;background:0 0}header .header{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;gap:30px}.mian_span{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:30px}}.end_main_frist{background:#73726c;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:592px;margin-top:20px}.end_main_frist .end_main_frist_right h4{color:#fff;font-weight:400;font-size:13px;line-height:19px}.end_main_frist .end_main_frist_right h3{color:#fff;font-weight:400;font-size:106px;line-height:117px;margin:0;padding-top:60px}.end_main_frist .end_main_frist_right p{color:#fff;font-weight:400;font-size:17px;line-height:22px;padding-top:40px;margin:0}.end_main_frist .end_main_frist_right .list{margin-top:10px;display:-webkit-box;display:-ms-flexbox;display:flex;gap:10px}.end_main_frist .end_main_frist_right .list .half_all,.end_main_frist .end_main_frist_right .list .list_all{background:#292a2d;width:33px;height:4px}.end_main_frist .end_main_frist_right .list .half_all .half{background:#fff;width:50%;height:inherit}@media screen and (max-width:700px){.end_main_frist{height:1000px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}}@media screen and (max-width:490px){header .header{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;gap:30px}header .header .header_right{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}header .header .header_right .small{width:50%}.end_main_frist .end_main_frist_left img,.main_four .main_four_left img,header .header .header_right img,main .main_tree .main_three_right img,main .main_two .main_two_right img{width:100%}.main_four,main .main_tree,main .main_two{gap:20px}.end_main_frist{gap:0}}.end_main_seventh{background:#313236;padding:80px}.end_main_seventh h4{padding-top:100px;font-weight:400;font-size:10px;line-height:12px;color:#fff;margin:0;text-align:center}.end_main_seventh h2{font-style:normal;font-weight:400;font-size:40px;line-height:50px;color:#fff;text-align:center}.end_main_seventh .end_main_seventh_items{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:50px}.end_main .end_main_items,footer .footer,footer .footer .footer_items{display:-webkit-box;display:-ms-flexbox}.end_main_seventh .end_main_seventh_items .end_main_seventh_item{width:368px;height:343px;padding:20px;border:1px solid rgba(255,255,255,.2);border-radius:8.33333px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item p{font-weight:400;font-size:23px;line-height:30px;color:#fff}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div{margin-top:120px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div h6{margin:0;font-weight:400;color:#fff;font-size:12px;line-height:19px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div p{font-weight:400;font-size:13px;line-height:19px;color:#fff;margin:0}@media screen and (max-width:1105px){.main .all_mainspan{display:none}.main img{width:100%}.end_main_seventh .end_main_seventh_items{-ms-flex-wrap:wrap;flex-wrap:wrap}}@media screen and (max-width:590px){.end_main_seventh .end_main_seventh_items .end_main_seventh_item{width:250px;height:250px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item p{font-weight:400;font-size:15px;line-height:20px;color:#fff}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div{margin-top:70px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div h6{font-size:9px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div p{font-size:10px}}@media screen and (max-width:330px){.end_main_seventh .end_main_seventh_items .end_main_seventh_item{width:250px;height:350px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item p{font-weight:400;font-size:15px;line-height:20px;color:#fff}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div{margin-top:70px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div h6{font-size:9px}.end_main_seventh .end_main_seventh_items .end_main_seventh_item div p{font-size:10px}}.end_main{margin-top:66px}.end_main h5{text-align:center;color:#463f3c;font-weight:400;font-size:19px;line-height:30px}.end_main .end_main_items{display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:6px;padding:80px;max-width:1200px}.end_main .end_main_items .end-main_item{background:#879ead;max-width:250px;height:364px;margin:12px;padding:7px}.end_main .end_main_items .end-main_item p,.end_main .end_main_items .end-main_item_four p,.end_main .end_main_items .end-main_item_three p,.end_main .end_main_items .end-main_item_two p{color:#fff;font-weight:400;font-size:20px;line-height:28px;padding-left:27px;padding-top:23px;margin:0}.end_main .end_main_items .end-main_item img{position:relative;left:-15}.end_main .end_main_items .end-main_item a,.end_main .end_main_items .end-main_item_four a,.end_main .end_main_items .end-main_item_three a,.end_main .end_main_items .end-main_item_two a{text-decoration:none;position:relative;right:50px;bottom:40px;color:#292a2d;font-weight:400;font-size:12px;line-height:12px}.end_main .end_main_items .end-main_item_two{background:#1a5866;width:248px;height:364px;margin:12px;padding:7px}.end_main .end_main_items .end-main_item_four img,.end_main .end_main_items .end-main_item_three img,.end_main .end_main_items .end-main_item_two img{position:relative;width:initial;padding-top:29px}.end_main .end_main_items .end-main_item_three{background:#776c62;width:248px;height:364px;margin:12px;padding:7px}.end_main .end_main_items .end-main_item_four{background:#99958e;width:248px;height:364px;margin:12px;padding:7px}@media screen and (max-width:1115px){.end_main .end_main_items{-ms-flex-wrap:wrap;flex-wrap:wrap}}footer .footer{width:1066.06px;height:480.18px;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:200px;padding-top:100px}footer .footer .footer_items{display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:50px}footer .footer .footer_items .footer_item h5{display:block;color:#004250;font-weight:400;font-size:10px;line-height:12px}footer .footer .footer_items .footer_item a{padding-top:10px;display:block;text-decoration:none;color:#292a2d;font-weight:400;font-size:12px;line-height:12px}footer .footer .footer_big_item{bottom:100px}footer .footer .footer_big_item .footer_big_item_linkss{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:30px}footer .footer .footer_big_item_link a{display:block;text-decoration:none;color:#adb2b7;font-weight:400;font-size:7px;line-height:11px}@media screen and (max-width:1098px){footer .footer .footer .footer_items{-ms-flex-wrap:wrap;flex-wrap:wrap}}*{box-sizing:border-box}/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}</style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav container">
+            
+
+            <div class="nav_items">
+
+                <div class="logo"><svg width="61" height="27" viewBox="0 0 61 27" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_3)">
+                            <path
+                                d="M18.1861 16.7605C18.1861 14.7461 18.477 13.2079 19.0588 12.1459C19.6413 11.0839 20.2688 10.5537 20.9419 10.5562C21.7273 10.5562 22.383 11.1305 22.9099 12.2785C23.436 13.4272 23.7327 14.922 23.8008 16.7637L18.1861 16.7605ZM26.1552 12.0657C24.9211 10.7967 23.4185 10.1626 21.6484 10.1635C20.7138 10.1665 19.7887 10.3488 18.925 10.7002C18.0153 11.0659 17.1795 11.5888 16.4567 12.2441C15.7054 12.915 15.0938 13.8027 14.6234 14.9081C14.1383 16.086 13.8981 17.3477 13.917 18.6185C13.917 21.3046 14.6566 23.3738 16.1376 24.8261C17.6169 26.2792 19.3205 27.0049 21.2478 27.0041C22.032 27.0138 22.81 26.8669 23.5349 26.5721C24.2563 26.2793 24.9091 25.8441 25.453 25.2933C26.5988 24.1872 27.4527 22.8221 27.9403 21.3169L27.8738 21.2842C26.3921 22.6669 24.9003 23.3591 23.3961 23.3591C22.0739 23.3591 20.8904 22.8551 19.8474 21.8471C18.8045 20.8391 18.251 19.296 18.1853 17.2162H28.2046C28.0708 15.0505 27.3852 13.3331 26.1486 12.0657M7.49868 16.2025C6.84503 15.984 6.19452 15.7565 5.54735 15.5201C5.06722 15.3358 4.59605 15.1297 4.13537 14.9024C3.59767 14.643 3.22785 14.3673 3.0259 14.0744C2.82439 13.7821 2.7188 13.436 2.72339 13.0827C2.71817 12.7295 2.79731 12.38 2.95443 12.0625C3.11233 11.7442 3.34337 11.4652 3.63092 11.2475C4.24816 10.756 5.02294 10.4967 5.81661 10.5161C7.09645 10.5161 8.20592 10.9874 9.14585 11.9299C10.0849 12.8725 11.1055 14.3517 12.2058 16.3661H12.2731L11.9989 11.0356C9.53063 10.4073 7.62583 10.0931 6.28284 10.0931C4.55589 10.0931 3.0766 10.5218 1.84413 11.3776C0.611665 12.2335 -0.00249036 13.4975 -0.000828239 15.1691C-0.000828239 16.3825 0.359022 17.3782 1.07623 18.1587C1.79427 18.9393 3.11649 19.6544 5.04289 20.3032C5.76176 20.5421 6.25458 20.7098 6.52218 20.808C6.79062 20.9062 7.20199 21.0575 7.75631 21.2629C8.15938 21.402 8.54831 21.5755 8.91814 21.7825C9.18491 21.9543 9.44337 22.1384 9.69102 22.3347C9.9445 22.5172 10.1464 22.7569 10.2794 23.0335C10.3816 23.2814 10.4332 23.5465 10.4307 23.814C10.4307 24.7672 10.1223 25.4667 9.50653 25.911C8.85375 26.3647 8.06886 26.5973 7.27014 26.5737C6.51942 26.5729 5.78036 26.3909 5.11769 26.0435C4.48702 25.7311 3.90879 25.3252 3.4032 24.84C2.865 24.2811 2.39119 23.6654 1.9904 23.004C1.49758 22.2243 1.14355 21.6335 0.930793 21.2326C0.64033 20.6717 0.36597 20.1029 0.108041 19.5267H0.0747985L0.470384 26.0894C3.54199 26.6948 5.69361 26.9984 6.92774 26.9984C8.60815 26.9984 10.0592 26.5762 11.2808 25.7318C12.5025 24.8875 13.1125 23.5865 13.1125 21.8315C13.1125 20.358 12.6471 19.2035 11.7163 18.3698C10.7855 17.5353 9.38021 16.8136 7.49868 16.2025ZM54.2684 24.4195C54.2284 24.6747 54.1669 24.9262 54.0847 25.1714C53.8828 25.7564 53.39 26.244 52.6054 26.6359V26.7014H60.9452V26.6326C60.1606 26.2432 59.667 25.7572 59.4659 25.1755C59.3834 24.9287 59.3212 24.6759 59.2797 24.4195C59.1954 23.8624 59.1562 23.2996 59.1625 22.7365V10.4515H49.5928C49.5928 10.4515 49.5446 7.27037 49.661 5.38609C49.7981 3.15982 50.9408 1.30173 53.2387 0.0597287V-0.00572586C51.3547 -0.00572586 49.036 0.196365 47.4296 1.26C45.9852 2.21482 45.1358 3.79146 44.9613 5.45646C44.8167 6.83918 44.8076 9.05973 44.8076 10.4515H43.5061V10.9055H44.8076V22.7365C44.8076 23.7755 44.7012 24.588 44.4876 25.1738C44.2749 25.7596 43.787 26.2456 43.0249 26.6318V26.6973H51.3688V26.6318C50.5843 26.2424 50.0906 25.7564 49.8895 25.1738C49.6867 24.5913 49.5862 23.7813 49.5862 22.7422V10.9113C51.0572 10.9113 53.1681 10.6683 53.9534 12.1803C54.3648 12.9682 54.3806 13.9034 54.3806 14.7674V22.7422C54.3872 23.3051 54.3473 23.868 54.2617 24.4252M43.0648 21.2785C41.5855 22.6661 40.0954 23.3591 38.5937 23.3591C37.2707 23.3591 36.0872 22.8551 35.0451 21.8471C34.0013 20.8391 33.4469 19.296 33.3813 17.2162V16.7605C33.3813 14.7461 33.6722 13.2079 34.2547 12.1459C34.6852 11.3613 35.2769 10.7108 36.1404 10.5652C36.3332 10.5341 36.5294 10.5267 36.7247 10.5439C37.7718 10.6339 38.7649 11.2606 39.4672 11.97C40.4104 12.9134 41.4318 14.3943 42.5313 16.4127H42.5978L42.3235 10.7378C40.7487 10.8704 39.3517 10.4989 37.8408 10.3214C36.5402 10.1675 35.3285 10.2142 34.1093 10.7002C33.1999 11.066 32.3641 11.5886 31.6411 12.2433C30.8898 12.9158 30.2781 13.8035 29.8077 14.9081C29.3226 16.086 29.0824 17.3477 29.1013 18.6185C29.1013 21.3046 29.8418 23.3738 31.3219 24.8269C32.8012 26.2792 34.5049 27.0049 36.433 27.0033C37.2164 27.0139 37.9938 26.868 38.7184 26.5745C39.4396 26.2825 40.0924 25.8481 40.6365 25.2982C41.7824 24.1921 42.6363 22.827 43.1238 21.3218L43.0648 21.2785Z"
+                                fill="black" />
+                            <path
+                                d="M56.2821 7.27446C58.1378 7.27446 59.642 5.85655 59.642 4.10727C59.642 2.358 58.1337 0.94091 56.2821 0.94091C54.4313 0.94091 52.9229 2.35882 52.9229 4.10727C52.9229 5.85491 54.4313 7.27446 56.2821 7.27446Z"
+                                fill="black" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_3">
+                                <rect width="61" height="27" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="brtuch"><svg viewBox="0 0 100 40" width="40" height="40">
+                        <rect width="100" height="11" rx="4"></rect>
+                        <rect y="20" width="100" height="11" rx="4"></rect>
+                        <rect y="40" width="100" height="11" rx="4"></rect>
+                    </svg></div>
+                <ul class="nav_menu">
+                    <li> <a href="#">Learm</a></li>
+                    <li> <a href="#">Plan</a></li>
+                    <li> <a href="#">Finance</a></li>
+                    <li> <a href="#">Wealth</a></li>
+                    <li> <a href="#">About</a></li>
+                </ul>
+
+
+
+
+
+
+            </div>
+
+            <div class="nav_btns">
+                <button class="login"> <span> Log in </span></button>
+                <button class="get"> <span> Get started </span></button>
+                <button class="login_logo"> <svg xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="30" height="30"
+                        viewBox="0 0 256 256" xml:space="preserve">
+
+                        <defs>
+                        </defs>
+                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                            transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                            <path
+                                d="M 79.635 73.696 C 86.104 65.901 90 55.898 90 45 C 90 20.187 69.813 0 45 0 C 20.187 0 0 20.187 0 45 c 0 10.898 3.896 20.901 10.365 28.696 c 0.105 0.161 0.227 0.315 0.383 0.445 c 0.002 0.002 0.005 0.003 0.007 0.005 C 19.015 83.837 31.298 90 45 90 c 13.702 0 25.985 -6.163 34.245 -15.854 c 0.003 -0.002 0.005 -0.003 0.008 -0.005 C 79.408 74.01 79.53 73.857 79.635 73.696 z M 45 4 c 22.607 0 41 18.393 41 41 c 0 9.169 -3.026 17.645 -8.132 24.482 c -6.081 -6.505 -13.876 -10.99 -22.402 -13.023 c 6.497 -3.669 10.901 -10.629 10.901 -18.609 c 0 -11.782 -9.585 -21.367 -21.367 -21.367 c -11.782 0 -21.367 9.585 -21.367 21.367 c 0 7.979 4.404 14.939 10.901 18.608 c -8.526 2.033 -16.321 6.518 -22.402 13.023 C 7.026 62.645 4 54.169 4 45 C 4 22.393 22.393 4 45 4 z M 45 55.217 c -9.576 0 -17.367 -7.791 -17.367 -17.367 S 35.424 20.482 45 20.482 s 17.367 7.791 17.367 17.367 S 54.576 55.217 45 55.217 z M 45 86 c -11.986 0 -22.787 -5.171 -30.29 -13.399 C 22.48 64.079 33.418 59.217 45 59.217 c 11.581 0 22.52 4.863 30.29 13.384 C 67.787 80.829 56.986 86 45 86 z"
+                                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+                                transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        </g>
+                    </svg></button>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    </nav>
+
+    <header>
+        <div class=" header container">
+
+            <div class="header_left">
+                <h1>Equity Fina<br>for startup employees</h1>
+                <p>Get equity planning, stock option financing, and wealth management from advisors that know how stock
+                    options and equity can help grow your wealth.</p>
+
+
+
+                <div class="header_left_btn"> <a href="#">Get started</a>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="header_right">
+                <div class="small"> <img src="./img/header_rigth_juinor_pictor.png" alt="text"> </div>
+                <img class="big" src="./img/header_rigth_big_photo.png" alt=women">
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="line"></div>
+
+
+
+
+
+        </div>
+
+
+
+    </header>
+
+    <main>
+        <div class="main  container">
+
+            <div class="all_main">
+                <span>We work with employees from <br> the best startups</span>
+
+                <!-- <div class="meesing_logo">
+                    <div class="meesing_logo_frist">
+        
+                        <svg class="frist" width="28" height="32" viewBox="0 0 28 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M28 32C28 32 23.286 30.145 19.473 28.66H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0H24.562C26.46 0 27.999 1.632 27.999 3.645V22.049L28 32ZM23.861 20.018C23.7861 19.9219 23.6921 19.8423 23.5848 19.7844C23.4776 19.7266 23.3595 19.6916 23.2381 19.6817C23.1166 19.6718 22.9944 19.6873 22.8792 19.7271C22.7641 19.7669 22.6584 19.8302 22.569 19.913C22.539 19.939 19.554 22.594 13.999 22.594C8.513 22.594 5.482 19.958 5.428 19.91C5.33847 19.8277 5.23285 19.7648 5.1178 19.7253C5.00275 19.6859 4.88076 19.6707 4.75954 19.6807C4.63833 19.6908 4.52051 19.7258 4.41353 19.7837C4.30655 19.8416 4.21274 19.921 4.138 20.017C3.97793 20.2167 3.89965 20.4698 3.919 20.725C3.9359 20.9789 4.04975 21.2167 4.237 21.389C4.379 21.517 7.774 24.539 13.999 24.539C20.225 24.539 23.62 21.517 23.762 21.389C23.9489 21.2165 24.0624 20.9788 24.079 20.725C24.0984 20.4702 24.0205 20.2176 23.861 20.018Z"
+                                fill="white" />
+                        </svg>
+                        <div class="meesing_logo_two">
+        
+        
+                            <svg class="two" width="26" height="22" viewBox="0 0 26 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.188477 4.55643L3.06148 0.843628L13 13.6872L22.9385 0.843628L25.8115 4.55643L13 21.1128L0.188477 4.55643Z"
+                                    fill="white" />
+                            </svg>
+        
+                        </div>
+        
+                    </div>
+        
+        
+        
+        
+                </d
+                </div>
+        
+        
+                
+        
+        
+        
+        
+        
+        
+                
+                      
+        
+                </div> -->
+                <div class="main_border">
+
+                    <p>This website stores data such as cookies to enable essential site functionality, as well as
+                        marketing, personalization, and analytics. By remaining on this website you indicate your
+                        consent.
+
+                    </p>
+                    <div class="span_a">
+                        <div>
+                            <span>Privacy policy </span>
+                            <span> Cookie policy<span>
+                        </div>
+
+                        <a href="#" class="Got_it">Got It</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main_text_tree">
+                <h3>You’ve got startup equity. Now what?</h3>
+                <p>See your full net worth including your stock options, compare exercise and <br> selling strategies,
+                    and see how taxes impact your net gains.</p>
+                <img src="./img/aside_imge.png" alt="">
+            </div>
+
+        </div>
+
+
+        <div class="main_two_top container">
+        <h3>How we help startup builders</h3>
+        <svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.50002 2C9.65749 2 9.80851 2.10536 9.91986 2.29289C10.0312 2.48043 10.0938 2.73478 10.0938 3V26.586L13.8296 20.292C13.9411 20.1042 14.0923 19.9987 14.25 19.9987C14.4077 19.9987 14.5589 20.1042 14.6704 20.292C14.7819 20.4798 14.8445 20.7344 14.8445 21C14.8445 21.2656 14.7819 21.5202 14.6704 21.708L9.92039 29.708C9.86524 29.8011 9.79972 29.875 9.72758 29.9254C9.65545 29.9758 9.57812 30.0018 9.50002 30.0018C9.42192 30.0018 9.34459 29.9758 9.27245 29.9254C9.20032 29.875 9.1348 29.8011 9.07964 29.708L4.32964 21.708C4.21815 21.5202 4.15552 21.2656 4.15552 21C4.15552 20.7344 4.21815 20.4798 4.32964 20.292C4.44113 20.1042 4.59235 19.9987 4.75002 19.9987C4.90769 19.9987 5.0589 20.1042 5.17039 20.292L8.90627 26.586V3C8.90627 2.73478 8.96882 2.48043 9.08017 2.29289C9.19152 2.10536 9.34255 2 9.50002 2Z" fill="black"/>
+            </svg>
+            </div>
+         <div class="main_two container">
+             
+                
+            
+           
+                
+
+             <div class="main_two_left">
+                <h5> EQUITY, tax & IPO planning</h5>
+                   
+                <p>Work with a financial advisor to align your stock options with your financial goals.</p>
+                <div class="main-two_link">
+                  <a href="#" class="get_started">Get started</a>
+                  <a href="#" class="learn_more">Learn more</a>
+                </div> 
+            
+            </div>
+
+                <div class="main_two_right">
+
+                  <img src="./img/main_two.png" alt="">
+
+                </div>
+
+
+
+                
+
+
+
+
+
+        </div>
+
+        <div class="main_tree container">
+
+       <div class="main_three_right">
+
+        <img src="./img/main_three.png" alt="">
+
+
+
+       </div>
+
+       <div class="main_three_left">
+             
+        <h5>Exercise & Liquidity Financing</h5>
+        <p>Get the cash you need to own your equity, or get cash for your private shares without selling them.</p>
+        <div class="main-three_link">
+            <a href="#" class="get_started">Get started</a>
+            <a href="#" class="learn_more">Learn more</a>
+          </div> 
+
+       </div>
+          
+       
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="main_four container">
+
+            <div class="main_four_right">
+                  
+                <h5>Wealth Management</h5>
+                <p>Grow your money through managed portfolios and exclusive access to private investments.</p>
+               
+                <div class="main-four_link">
+                    <a href="#" class="get_started">Get started</a>
+                    <a href="#" class="learn_more">Learn more</a>
+                  </div> 
+
+
+
+            </div>
+            <div class="main_four_left">
+                <img src="./img/main_four.png" alt="">
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="main_five container">
+                <div class="main_five_left">
+                    <h5>Why Secfi</h5>
+                    <h2>Built by startup employees</h2>
+
+                </div>
+
+                <div class="main_give_rigth">
+                    <div class="item_five">
+                        <h3>We put equity first</h3>
+                        <p>Our team has deep expertise in equity, tax implications, and how it fits into your financial picture.</p>
+            
+                    </div>
+
+                    <div class="item_five">
+                        <h3>You don’t need millions</h3>
+                        <p>We help you make important equity decisions that can set you up for financial success.</p>
+            
+                    </div>
+
+                    <div class="item_five">
+                        <h3>Holistic wealth management</h3>
+                        <p>We take a comprehensive view of all your finances, including stock options, to help you save time and money, and grow your wealth.</p>
+            
+                    </div>
+
+
+
+
+
+                   
+
+
+
+
+                </div>
+
+             
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <div class="mian_span container">
+
+            <p>As seen in</p>
+            <svg width="28" height="14" viewBox="0 0 28 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1_139)">
+                <mask id="mask0_1_139" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="28" height="14">
+                <path d="M27.6976 0H0.246643V14H27.6976V0Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_1_139)">
+                <path d="M13.9721 0V4.66667H9.39698V14H4.82181V4.66667H0.246643V0H13.9721Z" fill="#46413C"/>
+                <path d="M27.6969 0H18.5466V4.66667H27.6969V0Z" fill="#46413C"/>
+                <path d="M27.6976 9.33315V13.9999H13.9721V4.6665H18.5473V9.33315H27.6976Z" fill="#46413C"/>
+                </g>
+                </g>
+                <defs>
+                <clipPath id="clip0_1_139">
+                <rect width="28" height="14" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+        </div>
+       
+       
+            <div class="end_main_frist  ">
+
+                <div class="end_main_frist_left">
+                    <img src="./img/end_main.png" alt="">
+    
+                </div>
+
+
+
+                <div class="end_main_frist_right">
+
+                    <h4>WE KNOW EQUITY.</h4>
+                    <h3>$48B</h3>
+                    <p>In equity value on the platform</p>
+
+                    <div class="list">
+                        <div class="list_all"></div>
+
+                        <div class="half_all">
+                            <div class="half"></div>
+                        </div>
+                       
+
+
+                        <div class="list_all"></div>
+                                
+                            
+                    </div>
+
+
+
+
+                </div>
+                
+
+
+
+            
+
+            </div>
+       
+            <div class="end_main_seventh">
+                <h4>Testimonials</h4>
+                <h2>What our clients say</h2>
+                <div class="end_main_seventh_items">
+              
+                     <div class="end_main_seventh_item">
+                        <p>I realized I’ve been sorely needing your advisory services. So excited to work with you</p>
+                            <div>
+                                <h6>Senior Engineer</h6>
+                                <p>Gusto</p>
+                        
+
+                            </div> 
+                     </div>
+
+                    <div class="end_main_seventh_item">
+                        <p>Secfi was one of the only places I could find that could give me accurate calculations on AMT.
+                            ”</p>
+                            <div>
+                                <h6>Amanda</h6>
+                                <p>Early HR employee at pre-IPO startup</p>
+                        
+
+                            </div>
+
+
+                    </div>
+
+                    <div class="end_main_seventh_item">
+                        <p>Secfi felt like the safest option. There is upside and almost no downside, and I might as well play it safe.</p>
+                     
+                            <div>
+                                <h6>Victor</h6>
+                                <p>Engineering leader at a pre-IPO startup</p>
+                        
+
+                            </div>
+
+
+                    </div>
+
+                   
+
+
+
+                </div>
+
+                
+
+
+
+
+
+
+
+            </div>
+
+        
+       
+            
+            <div class="end_main container">
+                <h5>Know your options</h5>
+                <div class="end_main_items">
+
+                    <div class="end-main_item">
+                        <p>My company is going public or getting acquired</p>
+
+                       <img src="./img/end_main_once.png" alt="">
+                        <a href="#">Open collection</a>
+
+
+
+                    </div>
+
+                    
+                    
+                    
+                    <div class="end-main_item_two">
+                        <p>Managing wealth with stock options</p>
+    
+                       <img src="./img/end_main_two.png" alt="">
+                        <a href="#">Open collection</a>
+                    </div>
+
+
+                      
+                    <div class="end-main_item_three">
+                        <p>Exercising stock options</p>
+    
+                       <img src="./img/end_main_three.png" alt="">
+                        <a href="#">Open collection</a>
+                    </div>
+
+                       
+                    <div class="end-main_item_four">
+                        <p>Exercising stock options</p>
+    
+                       <img src="./img/end_main_four.png" alt="">
+                        <a href="#">Open collection</a>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+        
+
+
+
+
+    </main>
+
+    
+    <footer>
+        <div class="footer container">
+ 
+               
+            <div class="footer_items">
+                <div class="footer_item">
+                    <h5>Solutions</h5>
+                    <a href="#">Equity and Tax Planning</a>
+                    <a href="#">IPO and Liquidity Planning</a>
+                    <a href="#">Exercise Financing</a>
+                    <a href="#">Liquidity Financing</a>
+                    <a href="#">Secfi Wealth</a>
+                    <a href="#">Investment Management</a>
+                    <a href="#">Secfi for Startups</a>
+                    <a href="#">Secfi Capital</a>
+                </div>
+
+                <div class="footer_item">
+                    <h5>Tools</h5>
+                    <a href="#">Equity Planner</a>
+                    <a href="#">AMT Calculator</a>
+                    <a href="#">Stock Option Tax Calculator</a>
+                    <a href="#">Exercise Timing Planner</a>
+                    <a href="#">Stock Option Exit Calculator</a>
+                   
+                </div>
+
+                <div class="footer_item">
+                    <h5>Learn</h5>
+                    <a href="#">Secfi Learn</a>
+                    <a href="#">Founders & Funders</a>
+                    <a href="#">FAQ</a>
+                   
+                </div>
+                <div class="footer_item">
+                    <h5>About us</h5>
+                    <a href="#">Our Story</a>
+                    <a href="#">Careers</a>
+                    <a href="#"></a>
+                    <a href="#">News & Press</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Legal</a>
+                   
+                </div>
+
+
+
+            </div>
+
+            <div class="footer_big_item">
+                <div>
+                    <a href="#"><svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1.39173C11.5504 1.58448 11.0737 1.71087 10.5857 1.76673C11.1 1.4684 11.4857 0.998397 11.67 0.44423C11.1854 0.721174 10.6563 0.916693 10.1049 1.02256C9.7333 0.639855 9.24251 0.386686 8.70823 0.302134C8.17396 0.217582 7.62592 0.306348 7.1487 0.554732C6.67148 0.803115 6.29161 1.1973 6.06774 1.67645C5.84387 2.1556 5.78844 2.69307 5.91 3.2059C4.93133 3.15769 3.97398 2.91026 3.09988 2.47961C2.22579 2.04896 1.45443 1.44469 0.835714 0.705897C0.521262 1.23249 0.424762 1.85571 0.565813 2.44897C0.706864 3.04223 1.07489 3.56105 1.59514 3.90006C1.2108 3.88811 0.835063 3.78636 0.499714 3.6034C0.492138 4.15837 0.682919 4.6987 1.03949 5.13215C1.39606 5.5656 1.89631 5.86529 2.45486 5.98006C2.09293 6.07626 1.71301 6.08967 1.34486 6.01923C1.50153 6.49532 1.8077 6.91172 2.22035 7.20991C2.63299 7.50811 3.13136 7.67311 3.64543 7.68173C2.61038 8.46187 1.2997 8.81182 0 8.65506C1.12589 9.35853 2.43652 9.73148 3.77486 9.72923C4.72327 9.73556 5.66301 9.55342 6.53642 9.19398C7.40983 8.83454 8.19848 8.30538 8.85399 7.63898C9.5095 6.97257 10.018 6.18297 10.3484 5.31863C10.6788 4.45429 10.824 3.53343 10.7751 2.61256C11.2536 2.27823 11.6681 1.86505 12 1.39173Z" fill="black"/>
+                    </svg>
+                </a>
+                    
+
+
+                    <a href="#">
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.22329 9.86083H0.139959V2.91666H2.22329V9.86083ZM9.86246 9.86083H7.77913V6.15166C7.77913 5.18499 7.43413 4.70333 6.75163 4.70333C6.21079 4.70333 5.86829 4.97333 5.69579 5.51249V9.86083H3.61246C3.61246 9.86083 3.63996 3.61083 3.61246 2.91666H5.25663L5.38329 4.30583H5.42663C5.85413 3.61083 6.53663 3.13999 7.47246 3.13999C8.18413 3.13999 8.75996 3.33833 9.19996 3.83583C9.64163 4.33333 9.86246 5.00166 9.86246 5.93999V9.86083ZM1.18079 2.22249C1.77496 2.22249 2.25663 1.75583 2.25663 1.18083C2.25663 0.605827 1.77496 0.13916 1.18079 0.13916C0.585793 0.13916 0.104126 0.605827 0.104126 1.18083C0.104126 1.75583 0.585793 2.22249 1.18079 2.22249Z" fill="black"/>
+                        </svg>
+                        </a>
+
+                    <a href="#">
+                        <svg width="10" height="13" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.29737 5.46914C8.61076 4.64141 9.51344 2.24707 9.51344 1.48027C9.51344 0.804883 9.0929 0.238672 8.3429 0.238672C7.14826 0.238672 6.07683 3.58262 5.74201 4.37988C5.48219 3.65625 4.26612 0 3.19469 0C2.36165 0 1.97058 0.581445 1.97058 1.3127C1.97058 2.20898 2.88665 4.53223 3.21879 5.42598C3.05004 5.36758 2.8679 5.3168 2.68308 5.3168C2.05629 5.3168 1.38933 6.05566 1.38933 6.65234C1.38933 6.87832 1.52058 7.1957 1.60362 7.40645C0.615223 7.66035 0.234866 8.28496 0.234866 9.22695C0.232188 11.0602 2.06433 13 4.64112 13C7.80183 13 9.7679 10.7504 9.7679 7.84824C9.7679 6.75391 9.58308 5.76621 8.29737 5.46914ZM7.34915 2.74219C7.4563 2.42988 7.91433 1.10957 8.3429 1.10957C8.57326 1.10957 8.63487 1.33555 8.63487 1.51582C8.63487 2.00078 7.60094 4.67949 7.37326 5.27363L6.46255 5.12129L7.34915 2.74219ZM2.81165 1.22637C2.81165 0.924219 3.20005 0.0660156 4.05183 2.42227L4.97862 4.96895C4.56076 4.93594 4.23665 4.89277 4.0304 5.00449C3.73844 4.27324 2.81165 1.96523 2.81165 1.22637ZM2.75004 6.19531C3.53487 6.19531 4.54737 8.59727 4.54737 8.92227C4.54737 9.05176 4.41612 9.21172 4.26344 9.21172C3.70362 9.21172 2.20362 7.25918 2.20362 6.73105C2.20629 6.53555 2.54379 6.19531 2.75004 6.19531ZM7.68665 10.9256C6.90719 11.7381 5.91076 12.1596 4.74826 12.1596C3.15719 12.1596 1.90094 11.3318 1.29558 9.91758C0.837545 8.81563 1.39737 8.1834 1.84737 8.1834C2.15272 8.1834 3.30183 9.71445 3.30183 10.0395C3.30183 10.1639 3.09558 10.2502 2.98844 10.2502C2.55719 10.2502 2.38844 9.85664 1.61969 8.94512C0.824152 9.69922 2.16879 11.1516 3.18129 11.1516C3.8804 11.1516 4.33576 10.5371 4.19915 10.0852C4.29826 10.0852 4.42147 10.0928 4.51255 10.0699C4.54201 10.758 4.7563 11.5781 5.62951 11.6365C5.62951 11.6137 5.68308 11.4562 5.68308 11.4486C5.68308 11.0068 5.39915 10.6209 5.39915 10.1715C5.39915 9.45293 5.9804 8.75723 6.56969 8.35098C6.78397 8.19863 7.0438 8.10469 7.29558 8.01836C7.5554 7.92441 7.8313 7.81523 8.02951 7.62734C8.00005 7.34297 7.87683 7.0916 7.57683 7.0916C6.83487 7.0916 4.34647 7.19316 4.34647 6.08359C4.34647 5.91348 4.34915 5.75098 4.81255 5.75098C5.67772 5.75098 7.87415 5.9541 8.51701 6.48984C9.00183 6.89863 9.1679 9.36406 7.68665 10.9256ZM5.04558 7.72637C5.3054 7.80508 5.57326 7.82793 5.84112 7.87871C5.6429 8.01582 5.46612 8.1834 5.29737 8.36367C5.22237 8.14785 5.13129 7.93711 5.04558 7.72637Z" fill="black"/>
+                            </svg>
+                            </a>
+                        </div>
+                            
+                
+                        <div class="footer_big_item_link">
+                            <a href="#">Privacy policy</a>
+                            <a href="#">Cookie Policy</a>
+                            <a href="#">Security</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Referral Program</a>
+                        </div>
+                    </div>
+
+
+
+
+          
+
+
+            
+
+
+        </div>
+   
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </footer>
+
+
+</body>
+
+</html>
